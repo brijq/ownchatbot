@@ -36,6 +36,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+#Sensitive files
+sensitive_files/
+
 # TypeScript v1 declaration files
 typings/
 
@@ -60,9 +63,5 @@ typings/
 # next.js build output
 .next
 
-#env
-.env
-
-brijqtify-9711d832d08d.json*
 
 ngrok
