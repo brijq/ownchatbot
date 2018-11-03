@@ -39,6 +39,9 @@ jspm_packages/
 #Sensitive files
 sensitive_files/
 
+#Env file page
+*.env
+
 # TypeScript v1 declaration files
 typings/
 
