@@ -8,6 +8,15 @@
   },
   "author": "brian",
   "license": "ISC",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js",
+    "lint": "repo-tools lint",
+    "pretest": "npm run lint",
+    "system-test": "repo-tools test app",
+    "test": "npm run system-test",
+    "e2e-test": "repo-tools test deploy"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "dialogflow": "^0.7.0",
