@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+#env
+.env
+
+brijqtify-9711d832d08d.json*
+
+ngrok
